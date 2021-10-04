@@ -4,7 +4,7 @@ import { shuffle } from "lodash"
 // Return a shuffled starting deck except 3 camels
 export function initDeck() {
   const deck = []
-  for (let i = 0; i < 6; i++) deck.push("diamonds")
+  for (let i = 0; i < 6; i++) deck.push("diamond")
   for (let i = 0; i < 6; i++) deck.push("gold")
   for (let i = 0; i < 6; i++) deck.push("silver")
   for (let i = 0; i < 8; i++) deck.push("cloth")
