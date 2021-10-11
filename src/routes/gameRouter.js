@@ -15,3 +15,5 @@ router.post("/", function (req, res) {
 export function Id(deck) {
   return deck
 }
+
+export default router
