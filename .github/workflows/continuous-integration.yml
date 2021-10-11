@@ -1,11 +1,7 @@
 name: Continuous integration
-on: [push]
+on: push
   branches:
     - master
-on: [pull_request]
-  branches:
-    - feature/**
-    - bugfix/**
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -33,5 +29,4 @@ jobs:
         run: npm install       
       - name: Run ESlint
         run: npm run lint
-on: push.master
-jobs:
+
