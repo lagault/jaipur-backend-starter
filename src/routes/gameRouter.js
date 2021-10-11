@@ -12,8 +12,4 @@ router.post("/", function (req, res) {
   res.status(201).json(newGame)
 })
 
-export function Id(deck) {
-  return deck
-}
-
 export default router

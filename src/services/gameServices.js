@@ -50,7 +50,7 @@ export function createGame(name) {
     ],
     currentPlayerIndex: 0,
     tokens: {
-      diamonds: [7, 7, 5, 5, 5],
+      diamond: [7, 7, 5, 5, 5],
       gold: [6, 6, 5, 5, 5],
       silver: [5, 5, 5, 5, 5],
       cloth: [5, 3, 3, 2, 2, 1, 1],

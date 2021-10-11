@@ -14,7 +14,7 @@ describe("Game router", () => {
     const expectedGame = {
       id: 1,
       name: "test",
-      market: ["camel", "camel", "camel", "diamonds", "diamonds"],
+      market: ["camel", "camel", "camel", "diamond", "diamond"],
       _deck: [
         "silver",
         "silver",
@@ -59,7 +59,7 @@ describe("Game router", () => {
       ],
       _players: [
         {
-          hand: ["diamonds", "diamonds", "diamonds", "diamonds", "gold"],
+          hand: ["diamond", "diamond", "diamond", "diamond", "gold"],
           camelsCount: 0,
           score: 0,
         },
@@ -71,7 +71,7 @@ describe("Game router", () => {
       ],
       currentPlayerIndex: 0,
       tokens: {
-        diamonds: [7, 7, 5, 5, 5],
+        diamond: [7, 7, 5, 5, 5],
         gold: [6, 6, 5, 5, 5],
         silver: [5, 5, 5, 5, 5],
         cloth: [5, 3, 3, 2, 2, 1, 1],
